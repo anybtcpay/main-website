@@ -63,6 +63,7 @@
       "booking": {
         "description": "Utilice la aplicación integrada para permitir que su cliente reserve un lugar en su calendario.\n\nDesde una sesión de clase hasta una reserva de sala, esta es la forma más sencilla de recibir pagos por su calendario.\n\nAdmite eventos desde 1 minuto hasta varios días."
       }
-    }
+    },
+    "comingSoon": "Pronto en linea"
   }
 }

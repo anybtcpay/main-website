@@ -30,7 +30,6 @@ const head = useLocaleHead({
       <Body>
         <div class="ltr-full-body container">
           <main class="ltr-main-content">
-              <LayoutPublicNavbar />
               <slot />
           </main>
           <LayoutFooter />

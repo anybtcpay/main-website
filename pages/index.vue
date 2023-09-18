@@ -42,7 +42,7 @@ const { data: peach } = await useFetch('/api/peach');
     <div class="hero is-medium">
       <div class="hero-body">
         <div class="has-text-centered">
-          <div class="title">{{ title }}</div>
+          <div class="title has-text-primary">{{ title }}</div>
           <div class="content">
             <div class="block ltr-has-new-line">{{ description }}</div>
             <div class="block has-text-weight-semibold">{{ $t('index.openSource') }}
@@ -61,19 +61,19 @@ const { data: peach } = await useFetch('/api/peach');
       <div class="columns">
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.useCases.bitcoiner.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.useCases.bitcoiner.title') }}</div>
             <div class="content ltr-has-new-line">{{ $t('index.useCases.bitcoiner.description') }}</div>
           </div>
         </div>
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.useCases.highRisk.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.useCases.highRisk.title') }}</div>
             <div class="content ltr-has-new-line">{{ $t('index.useCases.highRisk.description') }}</div>
           </div>
         </div>
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.useCases.sanctioned.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.useCases.sanctioned.title') }}</div>
             <div class="content ltr-has-new-line">{{ $t('index.useCases.sanctioned.description') }}</div>     
           </div>
         </div>
@@ -84,19 +84,19 @@ const { data: peach } = await useFetch('/api/peach');
       <div class="columns">
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.paymentMethods.bitcoin.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.paymentMethods.bitcoin.title') }}</div>
             <div class="content ltr-has-new-line">{{ $t('index.paymentMethods.bitcoin.description') }}</div>
           </div>
         </div>
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.paymentMethods.crypto.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.paymentMethods.crypto.title') }}</div>
             <div class="content ltr-has-new-line">{{ shapeshift }}</div>
             </div>
         </div>
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('index.paymentMethods.fiat.title') }}</div>
+            <div class="title is-4 has-text-primary">{{ $t('index.paymentMethods.fiat.title') }}</div>
             <div class="content ltr-has-new-line">{{ peach }}</div>     
           </div>
         </div>
@@ -106,21 +106,43 @@ const { data: peach } = await useFetch('/api/peach');
       <div class="title is-5 has-text-centered">{{ $t('index.services.title') }}</div>
       <div class="columns">
         <div class="column is-one-third">
-          <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('menu.invoicing') }}</div>
-            <div class="content ltr-has-new-line">{{ $t('index.services.invoicing.description') }}</div>
+          <div class="card ltr-equal-height">
+            <div class="card-content ltr-equal-height">
+              <div class="content">
+                <div class="title is-4 has-text-primary">{{ $t('menu.invoicing') }}</div>
+            <div class="content ltr-has-new-line">{{ $t('index.services.invoicing.description') }}</div>           
+              </div>
+            </div>
+            <footer class="card-footer">
+              <NuxtLink class="card-footer-item">{{ $t('index.comingSoon') }}</NuxtLink> 
+            </footer>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('menu.shopping') }}</div>
-            <div class="content ltr-has-new-line">{{ $t('index.services.shopping.description') }}</div>
+          <div class="card ltr-equal-height">
+            <div class="card-content ltr-equal-height">
+              <div class="content">
+                <div class="title is-4 has-text-primary">{{ $t('menu.shopping') }}</div>
+                <div class="ltr-has-new-line">{{ $t('index.services.shopping.description') }}</div>             
+              </div>
             </div>
+            <footer class="card-footer">
+              <NuxtLink class="card-footer-item">{{ $t('index.comingSoon') }}</NuxtLink> 
+            </footer>
+          </div>
         </div>
         <div class="column is-one-third">
-          <div class="box ltr-equal-height">
-            <div class="title is-4">{{ $t('menu.booking') }}</div>
-            <div class="content ltr-has-new-line">{{ $t('index.services.booking.description') }}</div>     
+          <div class="card ltr-equal-height">
+            <div class="card-content ltr-equal-height">
+              <div class="content">
+                <div class="title is-4 has-text-primary">{{ $t('menu.booking') }}</div>
+                <div class="ltr-has-new-line">{{ $t('index.services.booking.description') }}</div>               
+              </div>
+            </div>
+            <footer class="card-footer">
+              <NuxtLink href="https:booking.anybtcpay.com" target="_blank" class="card-footer-item">Cloud</NuxtLink> 
+              <NuxtLink href="https://github.com/anybtcpay/booking-self" target="_blank" class="card-footer-item">Repo</NuxtLink>
+            </footer>
           </div>
         </div>
       </div>

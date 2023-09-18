@@ -61,6 +61,7 @@
       "booking": {
         "description": "Use the built in application to let your client book a spot on your calendar.\n\nFrom a class session to a room booking, this is the easist way to get paid for your calendar.\n\nIt supports from event from 1 minute to multiple days."
       }
-    }
+    },
+    "comingSoon": "Coming soon"
   }
 }
