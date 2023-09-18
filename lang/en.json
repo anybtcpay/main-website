@@ -6,14 +6,9 @@
     "admin": "Admin"
   },
   "menu": {
-    "dashboard": "Dashboard",
-    "general": "General",
     "invoicing": "Invoicing",
-    "shopping": "Shopping",
-    "booking": "Bookings",
-    "settings": "Settings",
-    "balance": "Balance",
-    "payments": "Payments"
+    "shopping": "Ecommerce",
+    "booking": "Bookings"
   },
   "error": {
     "pageNotFound": "This page could not be found",
@@ -22,22 +17,8 @@
     "somethingWentWrong": "Something went wrong",
     "backToTheHomePage": "Back to the home page"
   },
-  "auth": {
-    "logoutEmail": "Sign out",
-    "loginEmail": "Sign in",
-    "magicLink": "Send the magic link by email",
-    "magicLinkInstructions": "No password is required.\n\nWe will send you a magic link to login by email.\n\nIf you use Slack, Notion or Wallet of Satoshi you may be familiar with this login method.\n\nTo keep your account safe, please enable 2FA on your email account.",
-    "emailSent": "Email sent",
-    "checkEmail": "Click the link sent by email to login your account",
-    "emailSubject": "Sign in to {host}",
-    "emailContent": "Sign in to your account at {host} by clicking the link:\n\n{url}\n\nIf you did not request this email you can safely discard it."
-  },
-  "customRules": {
-    "loginEmailRequired": "The email is required",
-    "loginEmailValid": "{value} is not a valid email address"
-  },
   "index": {
-    "title": "Accept shitcoins on BTCPay Server",
+    "title": "Accept shitcoins and receive bitcoin",
     "description": "Accept bitcoin, fiat and crypto payment, but always receive bitcoins, without kyc.\n\nIf you are a bitcoiner and privacy-oriented, you live n a sanctioned country, you are involved in legal high risk business like cannabis or adult, or you simply want to expand in emerging markets, you may find AnyBTCPay beneficial for you.\n\nCombine the benefit of censorship resistant hard money while not get limited only to this payment method.",
     "openSource": "This web app is open sourced with a MIT license. You can inspect, clone, modify, deploy or distribute the ",
     "repo": "repo",
@@ -63,12 +44,10 @@
         "description": "On-chain\nLigthning Network"
       },
       "crypto": { 
-        "title": "Crypto",
-        "description": "Ethereum\nTheter dollars"
+        "title": "Crypto"
       },
       "fiat": {
-        "title": "Fiat",
-        "description": "SEPA [EUR - Europe]\nSEPA [CHF - Switzerland]\nPix [BRL - Brazil]"
+        "title": "Fiat"
       }
     },
     "services": {

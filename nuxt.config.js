@@ -1,13 +1,8 @@
-const isDeployed = (
-  process.env.AUTH_ORIGIN === 'http://localhost:3000'
-  || !process.env.AUTH_ORIGIN
-) ? false : true;
-const deploymentDomain = process.env.AUTH_ORIGIN || 'http://localhost:3000';
+const deploymentDomain = process.env.NUXT_ORIGIN || 'http://localhost:3000';
 
 import {
   locales,
   defaultLocale,
-  excludedRoutes
 } from './assets/js/locales';
 
 export default defineNuxtConfig({
@@ -73,16 +68,8 @@ export default defineNuxtConfig({
   },
   
   runtimeConfig: {
-    nextAuthSecret: process.env.NEXTAUTH_SECRET,
-    faunaSecret: process.env.FAUNA_SECRET,
-    marangaduUser: process.env.MARANGADU_USER,
-    marangaduPassword: process.env.MARANGADU_PASSWORD,
-    marangaduHost: process.env.MARANGADU_HOST,
-    marangaduPort: process.env.MARANGADU_PORT,
-    marangaduFrom: process.env.MARANGADU_FROM,
-    platformAdmins: process.env.PLATFORM_ADMINS.split(','),
+    shapeshiftKey: process.env.SHAPESHIFT_KEY,
     public: {
-      isDeployed,
       deploymentDomain
     },
   },
@@ -101,18 +88,15 @@ export default defineNuxtConfig({
     'nuxt-simple-robots',
     'nuxt-simple-sitemap',
     '@nuxtjs/i18n',
-    '@sidebase/nuxt-auth',
     'nuxt-delay-hydration'
   ],
 
   robots: {
-    disallow: excludedRoutes.map(route => route.replace('/**', '')),
-    // sitemap: `${deploymentDomain}/sitemap_index.xml`
+    sitemap: `${deploymentDomain}/sitemap_index.xml`
   },
 
   sitemap: {
     xsl: false,
-    exclude: excludedRoutes,
     autoI18n: true
   },
 
@@ -133,41 +117,8 @@ export default defineNuxtConfig({
     }
   },
 
-  auth: {
-    provider: {
-      type: 'authjs',
-      addDefaultCallbackUrl: true
-    },
-    origin: deploymentDomain,
-    baseUrl: `/api/auth`,
-    addDefaultCallbackUrl: true,
-    globalAppMiddleware: {
-      isEnabled: true,
-      allow404WithoutAuth: true,
-      addDefaultCallbackUrl: true
-    },
-  },
-
   delayHydration: {
     mode: 'init',
-    exclude: excludedRoutes,
     debug: process.env.NODE_ENV === 'development'
-  },
-
-  nitro: {
-    devStorage: {
-      db: {
-        driver: 'fs',
-        base: './lang'
-      }
-    },
-    storage: {
-      db: {
-        driver: 'github',
-        repo: process.env.GITHUB_REPO,
-        branch: 'main',
-        dir: '/lang',
-      }
-    },
   }
 });

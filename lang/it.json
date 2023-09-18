@@ -6,14 +6,9 @@
     "admin": "Amministratore"
   },
   "menu": {
-    "dashboard": "Pannello di controllo",
-    "general": "Generale",
     "invoicing": "Fatturazione",
-    "shopping": "Negozio",
-    "booking": "Prenotazioni",
-    "settings": "Impostazioni",
-    "balance": "Saldo",
-    "payments": "Pagamenti"
+    "shopping": "E-commerce",
+    "booking": "Prenotazioni"
   },
   "error": {
     "pageNotFound": "Pagina non trovata",
@@ -22,22 +17,8 @@
     "somethingWentWrong": "Qualcosa è andato storto",
     "backToTheHomePage": "Tornare alla pagina principale"
   },
-  "auth": {
-    "logoutEmail": "Esci",
-    "loginEmail": "Accesso",
-    "magicLink": "Invia collegamento magico per email",
-    "magicLinkInstructions": "Non è richiesta alcuna password.\n\nTi invieremo un link magico per accedere via e-mail.\n\nSe utilizzi Slack, Notion o Wallet of Satoshi potresti avere familiarità con questo metodo di accesso.\n\nPer proteggere il tuo account, abilita 2FA sul tuo account email.",
-    "emailSent": "Email inviata",
-    "checkEmail": "Clicca il link inviato per email per accedere al tuo account",
-    "emailSubject": "Accedi a {host}",
-    "emailContent": "Accedi al tuo account su {host} facendo clic sul link:\n\n{url}\n\nSe non hai richiesto questa email puoi tranquillamente ignorarla."
-  },
-  "customRules": {
-    "loginEmailRequired": "L'email è richiesta",
-    "loginEmailValid": "{value} non è un indirizzo email valido"
-  },
   "index": {
-    "title": "Accetta shitcoin su BTCPay Server",
+    "title": "Accetta shitcoin e ricevi bitcoin",
     "description": "Accetta pagamenti in bitcoin, moneta legale e criptomonete, ricevendo sempre bitcoin, senza kyc.\nSe sei un bitcoiner e orientato alla privacy, sei non bancarizzato o vivi in un paese sanzionato, sei coinvolto in attività legali ad alto rischio come la cannabis, i giochi d'azzardo o l'industria per adulti, potresti trovare AnyBTCPay vantaggioso per te.\nCombina il vantaggio del denaro resistente alla censura senza limitarti solo a questo metodo di pagamento.",
     "openSource": "Questa app Web è open source con una licenza MIT. È possibile ispezionare, clonare, modificare, implementare o distribuire il ",
     "repo": "repository",

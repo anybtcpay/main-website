@@ -1,12 +1,6 @@
 <script setup>
-definePageMeta({
-  auth: false
-});
-
 const {
-  locale: {
-    value: locale
-  },
+  locale,
   t
 } = useI18n();
 
@@ -37,7 +31,10 @@ useHead({
 // redirect to locale only on the homepage
 // because i18n settings do not work
 const { fullPath } = useRoute();
-if (fullPath === '/') navigateTo(`/${locale}`);
+if (fullPath === '/') navigateTo(`/${locale.value}`);
+
+const { data: shapeshift } = await useFetch('/api/shapeshift');
+const { data: peach } = await useFetch('/api/peach');
 </script>
 
 <template>
@@ -50,7 +47,7 @@ if (fullPath === '/') navigateTo(`/${locale}`);
             <div class="block ltr-has-new-line">{{ description }}</div>
             <div class="block has-text-weight-semibold">{{ $t('index.openSource') }}
               <NuxtLink
-                to="https://github.com/learntheropes/btcpay-any"
+                to="https://github.com/anybtcpay"
                 target="_blank"
               >{{ $t('index.repo') }}</NuxtLink>
               .
@@ -94,13 +91,13 @@ if (fullPath === '/') navigateTo(`/${locale}`);
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
             <div class="title is-4">{{ $t('index.paymentMethods.crypto.title') }}</div>
-            <div class="content ltr-has-new-line">{{ $t('index.paymentMethods.crypto.description') }}</div>
+            <div class="content ltr-has-new-line">{{ shapeshift }}</div>
             </div>
         </div>
         <div class="column is-one-third">
           <div class="box ltr-equal-height">
             <div class="title is-4">{{ $t('index.paymentMethods.fiat.title') }}</div>
-            <div class="content ltr-has-new-line">{{ $t('index.paymentMethods.fiat.description') }}</div>     
+            <div class="content ltr-has-new-line">{{ peach }}</div>     
           </div>
         </div>
       </div>

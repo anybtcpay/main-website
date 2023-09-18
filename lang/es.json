@@ -6,14 +6,9 @@
     "admin": "Administrador"
   },
   "menu": {
-    "dashboard": "Panel de control",
-    "general": "General",
     "invoicing": "Facturación",
-    "shopping": "Tienda",
-    "booking": "Reservas",
-    "settings": "Configuración",
-    "balance": "Saldo",
-    "payments": "Pagos"
+    "shopping": "Comercio electrónico",
+    "booking": "Reservas"
   },
   "error": {
     "pageNotFound": "Esta página no se pudo encontrar",
@@ -22,22 +17,8 @@
     "somethingWentWrong": "Algo salió mal",
     "backToTheHomePage": "Volver a la página de inicio"
   },
-  "auth": {
-    "logoutEmail": "Salir",
-    "loginEmail": "Iniciar sesión",
-    "magicLink": "Enviar enlache magico por correo",
-    "magicLinkInstructions": "No se requiere contraseña.\n\nLe enviaremos un enlace mágico para iniciar sesión por correo electrónico.\n\nSi usa Slack, Notion o Wallet of Satoshi, es posible que esté familiarizado con este método de inicio de sesión.\n\nPara mantener su cuenta segura, habilite 2FA en su cuenta de correo electrónico.",
-    "emailSent": "Correo enviado",
-    "checkEmail": "Haga clic en el enlace enviado por correo electrónico para iniciar sesión en su cuenta",
-    "emailSubject": "Iniciar sesión en {host}",
-    "emailContent": "Inicie sesión en su cuenta en {host} haciendo clic en el enlace:\n\n{url}\n\nSi no ha solicitado este correo electrónico, puede ignorarlo de forma segura."
-  },
-  "customRules": {
-    "loginEmailRequired": "El correo es requerido",
-    "loginEmailValid": "{value} no es un correo electronico valido"
-  },
   "index": {
-    "title": "Acepta shitcoins en BTCPay Server",
+    "title": "Acepta shitcoins y recibe bitcoins",
     "description": "Acepte pagos en bitcoin, dinero tradicional y criptomonedas sin kyc, siempre recibiendo bitcoins.\nSi usted es un bitcoiner y orientado a la privacidad, no estás bancarizado o vive en un país sancionado, está involucrado en negocios legales de alto riesgo como el cannabis, juegos o industria por adultos, puede encontrar AnyBTCPay beneficioso para usted.\nCombine el beneficio del dinero resistente a la censura sin limitarse solo a este método de pago.",
     "openSource": "Esta aplicación web es de código abierto con una licencia MIT. Puede inspeccionar clonar, modificar, implementar o distribuir el ",
     "repo": "repositorio",
