@@ -50,7 +50,6 @@ const { data: peach } = await useFetch('/api/peach');
                 to="https://github.com/anybtcpay"
                 target="_blank"
               >{{ $t('index.repo') }}</NuxtLink>
-              .
             </div>
           </div>
         </div>

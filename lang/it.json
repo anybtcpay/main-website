@@ -19,9 +19,9 @@
   },
   "index": {
     "title": "Accetta shitcoin e ricevi bitcoin",
-    "description": "Accetta pagamenti in bitcoin, moneta legale e criptomonete, ricevendo sempre bitcoin, senza kyc.\nSe sei un bitcoiner e orientato alla privacy, sei non bancarizzato o vivi in un paese sanzionato, sei coinvolto in attività legali ad alto rischio come la cannabis, i giochi d'azzardo o l'industria per adulti, potresti trovare AnyBTCPay vantaggioso per te.\nCombina il vantaggio del denaro resistente alla censura senza limitarti solo a questo metodo di pagamento.",
-    "openSource": "Questa app Web è open source con una licenza MIT. È possibile ispezionare, clonare, modificare, implementare o distribuire il ",
-    "repo": "repository",
+    "description": "Accetta pagamenti in bitcoin, moneta legale e criptomonete per i tuoi prodotti e servizi ricevendo sempre bitcoin senza kyc",
+    "openSource": "Tutti i progetti sono open source. Puoi controllare i repository",
+    "repo": "qui",
     "useCases": {
       "title": "Casi d'uso",
       "bitcoiner": {
@@ -44,7 +44,7 @@
         "description": "Sulla blockchain\nLigthning Network"
       },
       "crypto": { 
-        "title": "Critpvalute",
+        "title": "Critpovalute",
         "description": "Ethereum\nDollari theter"
       },
       "fiat": {
