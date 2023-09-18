@@ -8,7 +8,8 @@ import {
 export default defineNuxtConfig({
 
   site: {
-    name: process.env.NUXT_PUBLIC_SITE_URL
+    name: process.env.NUXT_PUBLIC_SITE_URL,
+    debug: true
   },
 
   app: {
