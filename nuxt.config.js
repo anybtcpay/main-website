@@ -7,6 +7,10 @@ import {
 
 export default defineNuxtConfig({
 
+  site: {
+    name: process.env.NUXT_PUBLIC_SITE_URL
+  },
+
   app: {
     head: {
       title: 'AnyBTCPay',
@@ -90,10 +94,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     'nuxt-delay-hydration'
   ],
-
-  robots: {
-    sitemap: `${deploymentDomain}/sitemap_index.xml`
-  },
 
   sitemap: {
     xsl: false,
