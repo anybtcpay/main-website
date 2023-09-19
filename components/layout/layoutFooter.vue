@@ -10,20 +10,12 @@
       <div class="level-left">
         <div class="level-item">
           <OButton
-            :to="localePath('/documentation')"
-            tag="router-link"
-            variant="primary"
-            inverted
-          >{{ $t('footer.documentation') }}</OButton>
-        </div>
-        <div class="level-item">
-          <OButton
             href="mailto:anybtcpay@protonmail.com"
             tag="a"
             target="_blank"
             variant="primary"
             inverted
-          >{{ $t('footer.support') }}</OButton>
+          >{{ $t('footer.email') }}</OButton>
         </div>
         <div class="level-item">
           <!-- https://keys.openpgp.org/vks/v1/by-fingerprint/F5BD0232C4D2B938E430C436AF501BF486A9CCB0 -->
@@ -34,6 +26,33 @@
             variant="primary"
             inverted
           >PGP</OButton>
+        </div>
+        <div class="level-item">
+          <OButton
+            href="https://t.me/anybtcpay"
+            tag="a"
+            target="_blank"
+            variant="primary"
+            inverted
+          >Telegram</OButton>
+        </div>
+        <div class="level-item">
+          <OButton
+            href="https://twitter.com/anybtcpay"
+            tag="a"
+            target="_blank"
+            variant="primary"
+            inverted
+          >Twitter</OButton>
+        </div>
+        <div class="level-item">
+          <OButton
+            href="https://iris.to/anybtcpay@getalby.com"
+            tag="a"
+            target="_blank"
+            variant="primary"
+            inverted
+          >Nostr</OButton>
         </div>
       </div>
       <div class="level-right">

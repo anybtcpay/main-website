@@ -1,9 +1,7 @@
 {
   "homePage": "Pagina principale",
   "footer": {
-    "documentation": "Documentazione",
-    "support": "Supporto",
-    "admin": "Amministratore"
+    "email": "Email"
   },
   "menu": {
     "invoicing": "Fatturazione",

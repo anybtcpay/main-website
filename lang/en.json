@@ -1,9 +1,7 @@
 {
   "homePage": "Home",
   "footer": {
-    "documentation": "Documentation",
-    "support": "Support",
-    "admin": "Admin"
+    "email": "Email"
   },
   "menu": {
     "invoicing": "Invoicing",
