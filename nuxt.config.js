@@ -73,7 +73,9 @@ export default defineNuxtConfig({
   },
   
   runtimeConfig: {
+    faunaSecret: process.env.FAUNA_SECRET,
     shapeshiftKey: process.env.SHAPESHIFT_KEY,
+    btcpaySecret: process.env.BTCPAY_SECRET,
     public: {
       deploymentDomain
     },

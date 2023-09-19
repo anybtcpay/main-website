@@ -19,6 +19,7 @@
   "dependencies": {
     "@oruga-ui/oruga-next": "^0.6.0",
     "@oruga-ui/theme-bulma": "^0.2.11",
+    "faunadb": "^4.8.0",
     "lodash.find": "^4.6.0",
     "lodash.kebabcase": "^4.1.1",
     "lodash.shuffle": "^4.2.0"
