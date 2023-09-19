@@ -7,7 +7,8 @@ const capitalize = (string) => {
 
 export default defineEventHandler(async (event) => {
 
-  const response = await ofetch('https://corsproxy.io/?https://api.peachbitcoin.com/v1/info/', {
+  // https://corsproxy.io/?
+  const response = await ofetch('https://api.peachbitcoin.com/v1/info/', {
     headers: {
       accept: 'application/json',
     }
