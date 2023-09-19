@@ -29,6 +29,15 @@
         </div>
         <div class="level-item">
           <OButton
+            href="https://github.com/anybtcpay"
+            tag="a"
+            target="_blank"
+            variant="primary"
+            inverted
+          >Github</OButton>
+        </div>
+        <div class="level-item">
+          <OButton
             href="https://t.me/anybtcpay"
             tag="a"
             target="_blank"
