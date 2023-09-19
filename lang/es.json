@@ -18,8 +18,8 @@
   "index": {
     "title": "Acepta shitcoins y recibe bitcoins",
     "description": "Acepte pagos de bitcoin, fiat y crypto para sus servicios y bienes y siempre reciba bitcoins sin kyc",
-    "openSource": "Esta aplicación web es de código abierto con una licencia MIT. Puede inspeccionar clonar, modificar, implementar o distribuir el ",
-    "repo": "repositorio",
+    "openSource": "Todos los proyectos son de código abierto. Puedes consultar los repositorios",
+    "repo": "aquí",
     "useCases": {
       "title": "Casos de uso",
       "bitcoiner": {
@@ -53,7 +53,7 @@
     "services": {
       "title": "Servicios",
       "invoicing": {
-        "description": "Facture a sus clientes por sus servicios/productos.\n\n Comparta el enlace de la factura por correo electrónico desde el panel de control o cópielo / péguelo donde prefiera, como Whatsapp / Signal."
+        "description": "Facture  por sus servicios y productos y comparta el enlace de la factura."
       },
       "shopping": {
         "description": "Integre AnyBTCPay con su comercio electrónico existente.\n\nSimplemente incruste AnyBTCPay con algunas consultas."

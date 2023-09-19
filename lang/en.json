@@ -18,8 +18,8 @@
   "index": {
     "title": "Accept shitcoins and receive bitcoin",
     "description": "Accept bitcoin, fiat and crypto payments for your services and goods and always receive kyc free bitcoins",
-    "openSource": "Todos los proyectos son de código abierto. Puedes consultar los repositorios",
-    "repo": "aquí",
+    "openSource": "All our project are open sourced. You can find the repositories",
+    "repo": "here",
     "useCases": {
       "title": "Use cases",
       "bitcoiner": {
@@ -51,13 +51,13 @@
     "services": {
       "title": "Services",
       "invoicing": {
-        "description": "Invoice your clients for your services/products.\n\n Share the invoce link by email from the dashboard or copy/past it wherever you prefer such as Whatsapp/Signal."
+        "description": "Invoice for your services and products and share the invoce"
       },
       "shopping": {
         "description": "Integrate AnyBTCPay with your existing ecommerce.\n\nJust embed the AnyBTCPay with a few queries."
       },
       "booking": {
-        "description": "Use the built in application to let your client book a spot on your calendar.\n\nFrom a class session to a room booking, this is the easist way to get paid for your calendar.\n\nIt supports from event from 1 minute to multiple days."
+        "description": "Use the built in application to let your client book a spot on your calendar.\n\nFrom a class session to a room booking, this is the easist way to get paid for your calendar.\n\nIt supports events from 1 minute to multiple days."
       }
     },
     "comingSoon": "Coming soon"

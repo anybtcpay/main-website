@@ -3,7 +3,7 @@ const { btcpaySecret } = useRuntimeConfig();
 
 export default defineEventHandler(async (event) => {
 
-  const signature = getRequestHeader(event, 'btcpay-sig	');
+  const signature = getRequestHeader(event, 'btcpay-sig');
 
   if (!signature) {
     setResponseStatus(event, 403);

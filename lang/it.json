@@ -53,13 +53,13 @@
     "services": {
       "title": "Servizi",
       "invoicing": {
-        "description": "Fattura ai tuoi clienti i tuoi servizi/prodotti.\n\n Condividi il link della fattura via e-mail dalla dashboard o copialo / incollalo dove preferisci come Whatsapp / Signal."
+        "description": "Emetti una fattura per i tuoi servizi e prodotti e condividi il link della fattura."
       },
       "shopping": {
         "description": "Integra AnyBTCPay con il tuo e-commerce esistente.\n\nBasta incorporare AnyBTCPay con alcune query."
       },
       "booking": {
-        "description": "Utilizza l'applicazione integrata per consentire ai tuoi clienti di prenotare uno spazio nel tuo calendario.\n\nDa una sessione di lezione privata alla prenotazione di una abitazione, questo è il modo più semplice per ricevere i pagamenti per il tuo calendario.\n\nSupporta eventi da 1 minuto a fino più giorni."
+        "description": "Utilizza l'applicazione integrata per consentire ai tuoi clienti di prenotare uno spazio nel tuo calendario.\n\nDa una sessione di lezione privata alla prenotazione di una abitazione, questo è il modo più semplice per ricevere i pagamenti per il tuo calendario.\n\nSupporta eventi da 1 minuto fino a più giorni."
       }
     },
     "comingSoon": "Presto online"
