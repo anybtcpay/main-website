@@ -8,7 +8,7 @@ import {
 export default defineNuxtConfig({
 
   site: {
-    url: 'https://www.anybtcpay.com',
+    url: process.env.NUXT_ORIGIN,
     debug: true
   },
 
