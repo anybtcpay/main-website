@@ -8,7 +8,7 @@ import {
 export default defineNuxtConfig({
 
   site: {
-    name: process.env.NUXT_PUBLIC_SITE_URL,
+    name: process.env.NUXT_ORIGIN,
     debug: true
   },
 
@@ -73,9 +73,7 @@ export default defineNuxtConfig({
   },
   
   runtimeConfig: {
-    faunaSecret: process.env.FAUNA_SECRET,
     shapeshiftKey: process.env.SHAPESHIFT_KEY,
-    btcpaySecret: process.env.BTCPAY_SECRET,
     public: {
       deploymentDomain
     },

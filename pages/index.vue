@@ -33,8 +33,8 @@ useHead({
 const { fullPath } = useRoute();
 if (fullPath === '/') navigateTo(`/${locale.value}`);
 
-const { data: shapeshift } = await useFetch('/api/shapeshift');
-const { data: peach } = await useFetch('/api/peach');
+const { data: shapeshift } = await useFetch('/api/payment-methods/shapeshift');
+const { data: peach } = await useFetch('/api/payment-methods/peach');
 </script>
 
 <template>

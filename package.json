@@ -1,25 +1,22 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxi build",
-    "start": "nuxi start",
-    "dev": "nuxi dev",
-    "preview": "nuxi preview",
-    "prod": "nuxi build && nuxi start"
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "dev": "nuxi dev"
   },
   "devDependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.12",
     "nuxt": "^3.6.1",
     "nuxt-delay-hydration": "^1.2.1",
-    "nuxt-simple-robots": "^3.1.2",
-    "nuxt-simple-sitemap": "^3.2.6",
+    "nuxt-simple-robots": "^3.1.5",
+    "nuxt-simple-sitemap": "^3.3.4",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2"
   },
   "dependencies": {
     "@oruga-ui/oruga-next": "^0.6.0",
     "@oruga-ui/theme-bulma": "^0.2.11",
-    "faunadb": "^4.8.0",
     "lodash.find": "^4.6.0",
     "lodash.kebabcase": "^4.1.1",
     "lodash.shuffle": "^4.2.0"

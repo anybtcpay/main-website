@@ -4,7 +4,7 @@ const {
   shapeshiftKey
 } = useRuntimeConfig();
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async event => {
 
   const response = await ofetch('https://exchange.shapeshift.com/api/v1/assets', {
     headers: {
